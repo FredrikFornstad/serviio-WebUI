@@ -1,0 +1,18 @@
+--- org/view/logs.php	2014-01-06 14:38:40.000000000 +0100
++++ new/view/logs.php	2014-01-11 11:02:23.549586070 +0100
+@@ -14,7 +14,7 @@
+ 		<br>
+ 		<table>
+ 			<tr>
+-				<td><?php echo tr('tab_logs_file_location','Location of Serviio log file')?>:&nbsp;</td>
++				<td><?php echo tr('tab_logs_file_location','Location of Serviio log file ( /usr/share/serviio/log/serviio.log )')?>:&nbsp;</td>
+ 				<td><input type="text" id="logfile" name="logfile" size="60" value="<?php echo isset($_COOKIE["logfile"])?$_COOKIE["logfile"]:""?>"></td>
+ 				<td><button type="button" id="addLogFile" name="addLogFile" class="ui-button ui-widget ui-state-default ui-corner-all btn-small" />
+ 						<?php echo tr('button_add_log_file','Choose log file...')?>
+@@ -74,4 +74,4 @@
+ 		?>
+ 		<br>
+ 	</div>
+-</div>
+\ No newline at end of file
++</div>
