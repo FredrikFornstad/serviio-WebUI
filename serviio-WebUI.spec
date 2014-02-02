@@ -1,9 +1,9 @@
 Name:		serviio-WebUI
-Version:	1.5.3
-Release:	2
+Version:	1.5.4
+Release:	1
 License:	Free to use, see README.txt included in serviio-WebUI documentation
 Summary:	A web user interface for the serviio media server
-URL:		https://github.com/SwoopX/Web-UI-for-Serviio/archive/Serviio-1.3.zip
+URL:		https://github.com/SwoopX/Web-UI-for-Serviio/archive/Serviio-1.4.zip
 Group:		Productivity/Multimedia/Other
 Source:		Serviio-1.4.zip
 Patch1:		logs.php.patch
@@ -51,8 +51,11 @@ cp -R .htaccess $RPM_BUILD_ROOT/usr/share/serviio-WebUI
 
 
 %changelog
+* Sun Feb 02 2014 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.5.4-1
+- New upstream release plus correction of index.php to enable Serviidb source by default
+
 * Sat Jan 18 2014 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.5.3-2
-- New upstream correction in index.php
+- New upstream release
 
 * Sat Jan 11 2014 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.5.3-1
 - New upstream release, added hint to enable 3rd party app read access for flexshares
