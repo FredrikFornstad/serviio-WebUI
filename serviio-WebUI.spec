@@ -1,6 +1,6 @@
 Name:		serviio-WebUI
 Version:	1.5.4
-Release:	1
+Release:	2
 License:	Free to use, see README.txt included in serviio-WebUI documentation
 Summary:	A web user interface for the serviio media server
 URL:		https://github.com/SwoopX/Web-UI-for-Serviio/archive/Serviio-1.4.zip
@@ -51,6 +51,9 @@ cp -R .htaccess $RPM_BUILD_ROOT/usr/share/serviio-WebUI
 
 
 %changelog
+* Sat Mar 15 2014 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.5.4-2
+- New upstream bug correction for Iphone switch
+
 * Sun Feb 02 2014 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.5.4-1
 - New upstream release plus correction of index.php to enable Serviidb source by default
 
