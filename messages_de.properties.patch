@@ -1,15 +1,15 @@
---- org/i18n/messages_de.properties	2014-01-06 14:38:40.000000000 +0100
-+++ new/i18n/messages_de.properties	2014-01-11 10:53:42.064307751 +0100
-@@ -117,7 +117,7 @@
+--- org/i18n/messages_de.properties	2014-11-15 15:36:43.469064816 +0100
++++ new/i18n/messages_de.properties	2014-11-15 18:14:28.212989133 +0100
+@@ -118,7 +118,7 @@
  tab_library_shared_folders=Freigaben
  tab_library_online_sources=Online Quellen
  tab_library_installed_plugins=Installierte Plugins
 -tab_library_description=Wählen Sie die freizugebenden Ordner aus. Wählen Sie auch den Medientyp pro Ordner aus. Die Ordner können automatisch auf neue und aktualisierte Dateien überwacht werden.
-+tab_library_description=Wählen Sie die freizugebenden Ordner aus. Wählen Sie auch den Medientyp pro Ordner aus. Die Ordner können automatisch auf neue und aktualisierte Dateien überwacht werden. (Flexshares: /var/flexshare/shares/ )
++tab_library_description=Wählen Sie die freizugebenden Ordner aus. Wählen Sie auch den Medientyp pro Ordner aus. Die Ordner können automatisch auf neue und aktualisierte Dateien überwacht werden. ( /var/flexshare/shares/ . Make sure to enable 3rd party app read access in flexshare setup.)
  tab_library_dialog_title_add_remote=Auswahl des Ordners
  tab_library_include_hidden=Versteckte Dateien anzeigen
  tab_library_search_for_files_updates=Aktuell freigegebene Dateien aktualisieren
-@@ -232,7 +232,7 @@
+@@ -234,7 +234,7 @@
  tab_logs=Logs
  tab_log_file=Serviio Log-Datei
  tab_logs_file_description=Weiter unten wird der Inhalt der ausgewählten, durch Serviio erzeugten Log-Datei ausgegeben.

@@ -1,15 +1,15 @@
---- org/i18n/messages_en.properties	2014-01-06 14:38:40.000000000 +0100
-+++ new/i18n/messages_en.properties	2014-01-11 10:56:27.265304016 +0100
-@@ -117,7 +117,7 @@
+--- org/i18n/messages_en.properties	2014-11-15 15:36:35.974112242 +0100
++++ new/i18n/messages_en.properties	2014-11-15 18:56:10.349998951 +0100
+@@ -118,7 +118,7 @@
  tab_library_shared_folders=Shared Folders
  tab_library_online_sources=Online Sources
  tab_library_installed_plugins=Installed Plugins
 -tab_library_description=Select folders that you want to share and monitor for media files. Also select type of media files to be shared for each folder. The folders can be automatically monitored for new additions and updates to currently shared files.
-+tab_library_description=Select folders that you want to share and monitor for media files. Also select type of media files to be shared for each folder. The folders can be automatically monitored for new additions and updates to currently shared files. (Tip: Flexshare folders are found at /var/flexshare/shares/ . Make sure to enable 3rd party app read access in flexshare setup. )
++tab_library_description=Select folders that you want to share and monitor for media files. Also select type of media files to be shared for each folder. The folders can be automatically monitored for new additions and updates to currently shared files. (Tip: Flexshare folders are found at /var/flexshare/shares/ . Make sure to enable 3rd party app read access in flexshare setup.)
  tab_library_dialog_title_add_remote=Enter a folder path to share
  tab_library_include_hidden=Include hidden files
  tab_library_search_for_files_updates=Search for updates of currently shared files
-@@ -233,7 +233,7 @@
+@@ -235,7 +235,7 @@
  tab_logs=Logs
  tab_log_file=Serviio log file
  tab_logs_file_description=The below shows the content of the selected Serviio generated log file.
