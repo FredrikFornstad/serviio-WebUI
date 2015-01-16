@@ -1,17 +1,17 @@
 Name:		serviio-WebUI
-Version:	1.5.5
+Version:	1.5.6
 Release:	1
 License:	Free to use, see README.txt included in serviio-WebUI documentation
 Summary:	A web user interface for the serviio media server
-URL:		https://github.com/SwoopX/Web-UI-for-Serviio/archive/Serviio-1.4.zip
+URL:		https://github.com/SwoopX/Web-UI-for-Serviio/archive/Serviio-1.5.zip
 Group:		Productivity/Multimedia/Other
-Source:		Serviio-1.4.zip
+Source:		Serviio-1.5.zip
 Patch1:		logs.php.patch
 Patch2:		library.php.patch
 Patch3:		messages_en.properties.patch
 Patch4:		messages_de.properties.patch
 BuildRequires:	unzip tar gzip
-Requires:   	serviio >= 1.4
+Requires:   	serviio >= 1.5
 Requires:	php-mbstring
 BuildRoot:  	%{_tmppath}/%{name}-%{version}-build
 BuildArch:	noarch
@@ -22,7 +22,7 @@ or images) to renderer devices (e.g. a TV set, Bluray player, games console
 or mobile phone) on your connected home network.
 
 %prep
-%setup -q -n Web-UI-for-Serviio-Serviio-1.4
+%setup -q -n Web-UI-for-Serviio-Serviio-1.5
 %patch1 -p1
 %patch2 -p1
 %patch3 -p1
@@ -51,6 +51,9 @@ cp -R .htaccess $RPM_BUILD_ROOT/usr/share/serviio-WebUI
 
 
 %changelog
+* Wed Jan 14 2015 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.5.6-1
+- New upstream release for Serviio 1.5
+
 * Sat Nov 15 2014 Fredrik fornstad <fredrik.fornstad@gmail.com> - 1.5.5-1
 - New upstream release incl auto NIC selection, auto number of cores selection, corrected licence upload and prep for new Serviio API
 

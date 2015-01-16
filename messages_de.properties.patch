@@ -1,5 +1,5 @@
---- org/i18n/messages_de.properties	2014-11-15 15:36:43.469064816 +0100
-+++ new/i18n/messages_de.properties	2014-11-15 18:14:28.212989133 +0100
+--- org/i18n/messages_de.properties	2014-12-22 02:49:30.000000000 +0100
++++ mod/i18n/messages_de.properties	2015-01-14 22:13:13.958721415 +0100
 @@ -118,7 +118,7 @@
  tab_library_shared_folders=Freigaben
  tab_library_online_sources=Online Quellen
