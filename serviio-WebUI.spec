@@ -1,5 +1,5 @@
 Name:		serviio-WebUI
-Version:	1.6
+Version:	1.6.1
 Release:	1
 License:	Free to use, see README.txt included in serviio-WebUI documentation
 Summary:	A web user interface for the serviio media server
@@ -51,6 +51,9 @@ cp -R .htaccess $RPM_BUILD_ROOT/usr/share/serviio-WebUI
 
 
 %changelog
+* Wed Jan 21 2015 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.6.1
+- New upstream release
+
 * Tue Jan 20 2015 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.6
 - New upstream version number (same code)
 
