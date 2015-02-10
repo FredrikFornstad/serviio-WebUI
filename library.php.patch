@@ -1,5 +1,5 @@
---- org/view/library.php	2015-01-28 16:48:52.000000000 +0100
-+++ mod/view/library.php	2015-01-30 19:35:17.269197664 +0100
+--- org/view/library.php	2015-02-09 16:47:40.000000000 +0100
++++ mod/view/library.php	2015-02-10 20:18:51.905619293 +0100
 @@ -11,7 +11,7 @@
      <div style="border:1px solid gray; width:98%; margin-bottom: 1em; padding: 10px">
  

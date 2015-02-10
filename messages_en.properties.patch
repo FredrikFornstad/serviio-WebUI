@@ -1,6 +1,6 @@
---- org/i18n/messages_en.properties	2015-01-28 16:48:52.000000000 +0100
-+++ mod/i18n/messages_en.properties	2015-01-30 19:35:37.660197661 +0100
-@@ -118,7 +118,7 @@
+--- org/i18n/messages_en.properties	2015-02-09 16:47:40.000000000 +0100
++++ mod/i18n/messages_en.properties	2015-02-10 20:15:31.995619317 +0100
+@@ -119,7 +119,7 @@
  tab_library_shared_folders=Shared Folders
  tab_library_online_sources=Online Sources
  tab_library_installed_plugins=Installed Plugins
@@ -9,7 +9,7 @@
  tab_library_dialog_title_add_remote=Enter a folder path to share
  tab_library_include_hidden=Include hidden files
  tab_library_search_for_files_updates=Search for updates of currently shared files
-@@ -235,7 +235,7 @@
+@@ -224,7 +224,7 @@
  tab_logs=Logs
  tab_log_file=Serviio log file
  tab_logs_file_description=The below shows the content of the selected Serviio generated log file.

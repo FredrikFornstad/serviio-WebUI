@@ -1,5 +1,5 @@
---- org/i18n/messages_de.properties	2015-01-28 16:48:52.000000000 +0100
-+++ mod/i18n/messages_de.properties	2015-01-30 19:35:37.660197661 +0100
+--- org/i18n/messages_de.properties	2015-02-09 16:47:40.000000000 +0100
++++ mod/i18n/messages_de.properties	2015-02-10 20:16:27.475619227 +0100
 @@ -118,7 +118,7 @@
  tab_library_shared_folders=Freigaben
  tab_library_online_sources=Online Quellen
@@ -9,7 +9,7 @@
  tab_library_dialog_title_add_remote=Auswahl des Ordners
  tab_library_include_hidden=Versteckte Dateien anzeigen
  tab_library_search_for_files_updates=Aktuell freigegebene Dateien aktualisieren
-@@ -234,7 +234,7 @@
+@@ -222,7 +222,7 @@
  tab_logs=Logs
  tab_log_file=Serviio Log-Datei
  tab_logs_file_description=Weiter unten wird der Inhalt der ausgewählten, durch Serviio erzeugten Log-Datei ausgegeben.
