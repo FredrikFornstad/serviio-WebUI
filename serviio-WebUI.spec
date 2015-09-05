@@ -1,11 +1,13 @@
+%define commit 2fe4e73fde55cc2cc6ffc23e0d40c4dd09580c66
+
 Name:		serviio-WebUI
 Version:	1.6.3
-Release:	1
+Release:	2
 License:	Free to use, see README.txt included in serviio-WebUI documentation
 Summary:	A web user interface for the serviio media server
-URL:		https://github.com/SwoopX/Web-UI-for-Serviio/archive/Serviio-1.5.zip
+URL:		https://github.com/SwoopX/Web-UI-for-Serviio
 Group:		Productivity/Multimedia/Other
-Source:		Serviio-1.5.zip
+Source:		%{commit}.zip
 Patch1:		logs.php.patch
 Patch2:		library.php.patch
 Patch3:		messages_en.properties.patch
@@ -22,7 +24,7 @@ or images) to renderer devices (e.g. a TV set, Bluray player, games console
 or mobile phone) on your connected home network.
 
 %prep
-%setup -q -n Web-UI-for-Serviio-Serviio-1.5
+%setup -q -n Web-UI-for-Serviio-%{commit}
 %patch1 -p1
 %patch2 -p1
 %patch3 -p1
@@ -51,6 +53,9 @@ cp -R .htaccess $RPM_BUILD_ROOT/usr/share/serviio-WebUI
 
 
 %changelog
+* Sat Sep 5 2015 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.6.3-2
+- Changed source url to be commit specific in github
+
 * Tue Feb 10 2015 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.6.3
 - New upstream release
 
