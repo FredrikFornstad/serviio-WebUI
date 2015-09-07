@@ -2,7 +2,7 @@
 
 Name:		serviio-WebUI
 Version:	1.6.3
-Release:	2
+Release:	3%{?dist}
 License:	Free to use, see README.txt included in serviio-WebUI documentation
 Summary:	A web user interface for the serviio media server
 URL:		https://github.com/SwoopX/Web-UI-for-Serviio
@@ -53,6 +53,9 @@ cp -R .htaccess $RPM_BUILD_ROOT/usr/share/serviio-WebUI
 
 
 %changelog
+* Mon Sep 7 2015 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.6.3-3
+- Added dist-tag to releaseversion
+
 * Sat Sep 5 2015 Fredrik Fornstad <fredrik.fornstad@gmail.com> - 1.6.3-2
 - Changed source url to be commit specific in github
 
